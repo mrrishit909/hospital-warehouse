@@ -1,0 +1,46 @@
+facility_id,name,state,first_release_as_reh,old_facility_id,rule,previous_type
+010780,EAMC - LANIER,AL,2025-11-26,010175,"same city, names share at least half their words",Acute Care Hospitals
+010779,BULLOCK COUNTY HOSPITAL,AL,2025-11-26,,,
+040779,ST BERNARDS FIVE RIVERS MEDICAL CENTER,AR,2025-11-26,040047,"same city, names share at least half their words",Acute Care Hospitals
+040780,EUREKA SPRINGS HOSPITAL COMMISSION,AR,2025-11-26,041304,"same city, names share at least half their words",Critical Access Hospitals
+040781,HELENA REGIONAL MEDICAL CENTER,AR,2025-11-26,040085,"same city, names share at least half their words",Acute Care Hospitals
+040782,SOUTH MISSISSIPPI COUNTY REGIONAL MEDICAL CENTER,AR,2025-11-26,041316,"same city, names share at least half their words",Critical Access Hospitals
+040783,"DEWITT HOSPITAL & NURSING HOME, INC",AR,2025-11-26,041314,"same city, names share at least half their words",Critical Access Hospitals
+110779,IRWIN COUNTY HOSPITAL,GA,2025-11-26,110130,"same city, names share at least half their words",Acute Care Hospitals
+110780,BLUE RIDGE MEDICAL CENTER,GA,2025-11-26,110189,"same city, only candidate for a new Rural Emergency Hospital",Acute Care Hospitals
+110781,TAYLOR REGIONAL HOSPITAL,GA,2025-11-26,110135,"same city, names share at least half their words",Acute Care Hospitals
+130779,CASCADE MEDICAL CENTER,ID,2025-11-26,131308,"same city, names share at least half their words",Critical Access Hospitals
+170779,SCK HEALTH,KS,2025-11-26,170150,"same city, only candidate for a new Rural Emergency Hospital",Acute Care Hospitals
+170780,"MERCY HOSPITAL, INC",KS,2025-11-26,170075,"same city, names share at least half their words",Acute Care Hospitals
+170781,RUSH COUNTY MEMORIAL HOSPITAL,KS,2025-11-26,171342,"same city, names share at least half their words",Critical Access Hospitals
+180779,CRITTENDEN COMMUNITY HOSPITAL,KY,2025-11-26,180095,"same city, names share at least half their words",Acute Care Hospitals
+190779,ASSUMPTION COMMUNITY HOSPITAL,LA,2025-11-26,191303,"same city, names share at least half their words",Critical Access Hospitals
+230779,STURGIS HOSPITAL,MI,2025-11-26,230096,"same city, names share at least half their words",Acute Care Hospitals
+240779,MAHNOMEN HEALTH CENTER,MN,2025-11-26,241300,"same city, names share at least half their words",Critical Access Hospitals
+260779,PARKLAND HEALTH CENTER - BONNE TERRE,MO,2025-11-26,261315,"same city, names share at least half their words",Critical Access Hospitals
+250780,JEFFERSON COUNTY HOSPITAL,MS,2025-11-26,250060,"same city, names share at least half their words",Acute Care Hospitals
+250782,GREENE COUNTY HOSPITAL,MS,2025-11-26,251329,"same city, names share at least half their words",Critical Access Hospitals
+250783,PERRY COUNTY GENERAL HOSPITAL,MS,2025-11-26,251306,"same city, names share at least half their words",Critical Access Hospitals
+250784,SHARKEY ISSAQUENA COMMUNITY HOSPITAL,MS,2025-11-26,251338,"same city, names share at least half their words",Critical Access Hospitals
+250781,PANOLA MEDICAL CENTER,MS,2025-11-26,250128,"same city, names share at least half their words",Acute Care Hospitals
+250785,PROGRESSIVE HEALTH GROUP OF HOUSTON,MS,2025-11-26,,,
+280779,FRIEND COMMUNITY HEALTHCARE SYSTEM,NE,2025-11-26,281330,"same city, names share at least half their words",Critical Access Hospitals
+320779,GUADALUPE COUNTY HOSPITAL,NM,2025-11-26,320067,"same city, names share at least half their words",Acute Care Hospitals
+330799,CLIFTON-FINE HOSPITAL,NY,2025-11-26,331307,"same city, names share at least half their words",Critical Access Hospitals
+370779,STILLWATER MEDICAL - PERRY,OK,2025-11-26,370139,"same city, names share at least half their words",Acute Care Hospitals
+370780,STILLWATER MEDICAL-BLACKWELL,OK,2025-11-26,370030,"same city, names share at least half their words",Acute Care Hospitals
+370781,HARPER COUNTY COMMUNITY HOSPITAL,OK,2025-11-26,371324,"same city, names share at least half their words",Critical Access Hospitals
+370783,ELKVIEW GENERAL HOSPITAL,OK,2025-11-26,370153,"same city, names share at least half their words",Acute Care Hospitals
+440779,TRISTAR ASHLAND CITY MEDICAL CENTER,TN,2025-11-26,441311,"same city, names share at least half their words",Critical Access Hospitals
+440780,WAYNE MEDICAL CENTER,TN,2025-11-26,440010,"same city, names share at least half their words",Acute Care Hospitals
+670779,CROSBYTON CLINIC HOSPITAL,TX,2025-11-26,451345,"same city, names share at least half their words",Critical Access Hospitals
+670783,CHI ST LUKES HEALTH MEMORIAL SAN AUGUSTINE,TX,2025-11-26,451360,"same city, names share at least half their words",Critical Access Hospitals
+670781,ANSON GENERAL HOSPITAL,TX,2025-11-26,450078,"same city, names share at least half their words",Acute Care Hospitals
+670780,FALLS COMMUNITY HOSPITAL AND CLINIC,TX,2025-11-26,450348,"same city, names share at least half their words",Acute Care Hospitals
+010781,J PAUL JONES HOSPITAL,AL,2026-02-25,010102,"same city, names share at least half their words",Acute Care Hospitals
+180780,FLEMING COUNTY HOSPITAL,KY,2026-05-13,181332,"same city, names share at least half their words",Critical Access Hospitals
+250786,SMITH COUNTY EMERGENCY HOSPITAL,MS,2026-05-13,250163,"same city, only candidate for a new Rural Emergency Hospital",Acute Care Hospitals
+330800,IRA DAVENPORT MEMORIAL HOSPITAL,NY,2026-05-13,330144,"same city, names share at least half their words",Acute Care Hospitals
+430779,LANDMANN JUNGMAN MEMORIAL HOSPITAL CORPORATION,SD,2026-05-13,431317,"same city, only candidate for a new Rural Emergency Hospital",Critical Access Hospitals
+330801,"WESTFIELD MEMORIAL HOSPITAL, INC",NY,2026-08-13,,,
+370784,CLINTON REGIONAL HOSPITAL,OK,2026-08-13,370029,"same city, names share at least half their words",Acute Care Hospitals

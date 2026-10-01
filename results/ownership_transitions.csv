@@ -1,0 +1,10 @@
+ownership_2019,ownership_2026,hospitals
+For-profit,For-profit,656
+For-profit,Government,17
+For-profit,Non-profit,75
+Government,For-profit,23
+Government,Government,907
+Government,Non-profit,93
+Non-profit,For-profit,63
+Non-profit,Government,50
+Non-profit,Non-profit,2580
