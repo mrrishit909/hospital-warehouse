@@ -77,3 +77,20 @@ SELECT d.date_key, count(*) AS hospitals, count(f.overall_rating) AS rated,
 
 -- name: lineage
 SELECT * FROM hospital_lineage ORDER BY state, city;
+
+-- name: attribute_changes
+-- How often each attribute changes between consecutive releases of the same facility (the evidence behind choosing
+-- Type 2 for ownership/type/emergency services and Type 1 for name/address). Same normalisation as staging.
+WITH s AS (
+  SELECT lpad(facility_id, 6, '0') AS facility_id, CAST(regexp_extract(filename, '(\d{4}-\d{2}-\d{2})', 1) AS date) AS snap,
+         upper(regexp_replace(trim(name), '\s+', ' ', 'g')) AS name, upper(regexp_replace(trim(address), '\s+', ' ', 'g')) AS address,
+         trim(hospital_type) AS hospital_type, trim(ownership) AS ownership, upper(trim(emergency_services)) AS emergency_services
+    FROM read_csv('{snapshots}/general_*.csv', all_varchar = true, header = true, filename = true)),
+l AS (
+  SELECT *, lag(name) OVER w AS p_name, lag(address) OVER w AS p_address, lag(hospital_type) OVER w AS p_type,
+         lag(ownership) OVER w AS p_own, lag(emergency_services) OVER w AS p_er
+    FROM s WINDOW w AS (PARTITION BY facility_id ORDER BY snap))
+SELECT count(p_name) AS release_pairs, count(*) FILTER (WHERE name <> p_name) AS name, count(*) FILTER (WHERE address <> p_address) AS address,
+       count(*) FILTER (WHERE ownership <> p_own) AS ownership, count(*) FILTER (WHERE emergency_services <> p_er) AS emergency_services,
+       count(*) FILTER (WHERE hospital_type <> p_type) AS hospital_type
+  FROM l;

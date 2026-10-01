@@ -34,7 +34,7 @@ ID", "Hospital Name" became "Facility Name"); `download.py` maps them to one set
   rating (NULL when CMS says "Not Available").
 - **`dim_hospital`**, a slowly changing dimension:
   - **Type 2** (a new dated row) for ownership, hospital type and emergency services: these change for real reasons.
-  - **Type 1** (overwritten) for name and address. I measured first: of 2,081 name changes between releases, many are
+  - **Type 1** (overwritten) for name and address. I measured first (`results/attribute_changes.csv`): of 2,081 name changes between releases, many are
     cosmetic ("ST VINCENT'S EAST" → "ST. VINCENT'S EAST"), so versioning them would mostly record noise.
 - **Durable key (`hospital_key`).** A Rural Emergency Hospital conversion gets a brand-new CMS facility ID, and so does
   an acute hospital becoming a critical access hospital. Keyed on the CMS ID alone, the hospital would look closed and a

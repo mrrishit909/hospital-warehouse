@@ -22,8 +22,8 @@ old_facility_id,new_facility_id,rule,old_name,new_name,city,state
 110780,111338,"same city, names share at least half their words",BLUE RIDGE MEDICAL CENTER,BLUE RIDGE MEDICAL CENTER,BLUE RIDGE,GA
 110189,110780,"same city, only candidate for a new Rural Emergency Hospital",FANNIN REGIONAL HOSPITAL,BLUE RIDGE MEDICAL CENTER,BLUE RIDGE,GA
 110026,111337,"same city, names share at least half their words",ELBERT MEMORIAL HOSPITAL,ELBERT MEMORIAL HOSPITAL,ELBERTON,GA
-110135,110781,"same city, names share at least half their words",TAYLOR REGIONAL HOSPITAL,TAYLOR REGIONAL HOSPITAL,HAWKINSVILLE,GA
 110781,110256,"same city, names share at least half their words",TAYLOR REGIONAL HOSPITAL,TAYLOR REGIONAL HOSPITAL,HAWKINSVILLE,GA
+110135,110781,"same city, names share at least half their words",TAYLOR REGIONAL HOSPITAL,TAYLOR REGIONAL HOSPITAL,HAWKINSVILLE,GA
 110130,110779,"same city, names share at least half their words",IRWIN COUNTY HOSPITAL,IRWIN COUNTY HOSPITAL,OCILLA,GA
 160005,161382,"same city, names share at least half their words",ST ANTHONY REGIONAL HOSPITAL & NURSING HOME,ST ANTHONY REGIONAL HOSPITAL & NURSING HOME,CARROLL,IA
 131308,130779,"same city, names share at least half their words",CASCADE MEDICAL CENTER,CASCADE MEDICAL CENTER,CASCADE,ID
@@ -36,8 +36,8 @@ old_facility_id,new_facility_id,rule,old_name,new_name,city,state
 170075,170780,"same city, names share at least half their words","MERCY HOSPITAL, INC","MERCY HOSPITAL, INC",MOUNDRIDGE,KS
 170110,171388,"same city, names share at least half their words",BOB WILSON MEMORIAL GRANT COUNTY HOSPITAL,BOB WILSON MEMORIAL HOSPITAL,ULYSSES,KS
 180106,181333,"same city, names share at least half their words",THE MEDICAL CENTER AT ALBANY,THE MEDICAL CENTER AT ALBANY,ALBANY,KY
-180053,181332,"same city, names share at least half their words",FLEMING COUNTY HOSPITAL,FLEMING COUNTY HOSPITAL,FLEMINGSBURG,KY
 181332,180780,"same city, names share at least half their words",FLEMING COUNTY HOSPITAL,FLEMING COUNTY HOSPITAL,FLEMINGSBURG,KY
+180053,181332,"same city, names share at least half their words",FLEMING COUNTY HOSPITAL,FLEMING COUNTY HOSPITAL,FLEMINGSBURG,KY
 180139,181334,"same city, names share at least half their words",KENTUCKY RIVER MEDICAL CENTER,KENTUCKY RIVER MEDICAL CENTER,JACKSON,KY
 180095,180779,"same city, names share at least half their words",CRITTENDEN COMMUNITY HOSPITAL,CRITTENDEN COMMUNITY HOSPITAL,MARION,KY
 191303,190779,"same city, names share at least half their words",ASSUMPTION COMMUNITY HOSPITAL,ASSUMPTION COMMUNITY HOSPITAL,NAPOLEONVILLE,LA

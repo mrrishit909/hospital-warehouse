@@ -51,6 +51,7 @@ def main():
     con = build()
     (HERE / "results").mkdir(exist_ok=True)
     for name, sql in blocks(SQL / "05_marts.sql"):
+        sql = sql.replace("{snapshots}", str(SNAPS))
         con.execute(f"COPY ({sql}) TO '{HERE / 'results' / (name + '.csv')}' (HEADER)")
     print(con.execute("SELECT * FROM etl_audit ORDER BY date_key").df().to_string(index=False))
     print(con.execute("SELECT change_reason, count(*) FROM dim_hospital GROUP BY 1 ORDER BY 2 DESC").fetchall())
